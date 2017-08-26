@@ -15,7 +15,13 @@ public class TestStudent {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+
+        String[] arr = {"Nam", "Trường", "Dũng", "Danh", "Trường", "Khánh", "Linh", "Đông", "Chiến", "Trường 2", "Ngọc", "Toản", "Toàn"};
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(i + 1 + ". " + arr[i]);
+
+        }
+
     }
-    
+
 }
